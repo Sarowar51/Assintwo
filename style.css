@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav-section */
+
+
+.nav-container{
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    gap: 100px;
+    
+   
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+   
+}
+.nav-menu ul li{
+    list-style: none;
+    margin-right: 30px;
+  
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.for-btn{
+    cursor:pointer;
+ margin-bottom: 20px;;
+}
+.nav-btn{
+  
+flex-shrink: 0;
+border-radius: 15px;
+background: rgba(11, 2, 35, 0.10);
+border: none;
+margin:20px;
+padding:20px;
+
+}
+
+.fa-youtube{
+    width: 33.916px;
+color:red;
+
+}
+
+.fa-tiktok{
+    color:blue;
+}
+
+
+
+.img-logo{
+    display: flex;
+    gap: 10px;
+
+}
+.img-logo img{
+    width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+}
+.nav-span{
+    color: #FF42A5;
+}
+/* banner  start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(220, 220, 220);
+    margin-top:60px;
+    align-items: center;
+    
+
+}
+
+.banner-text-h1{
+    color: #0B0223;
+/* text-align: center; */
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+
+}
+.banner-text-h2{
+    color:  #e649b2 ;
+
+
+font-family: Work Sans;
+font-size: 90px;
+
+font-weight: 800;
+
+
+}
+.banner-context p{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+
+}
+.banner-btn{
+    display: inline-flex;
+padding:20px;
+align-items: flex-start;
+
+border-radius: 20px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border:none;
+margin-top: 30px;
+color: white;
+cursor:pointer;
+}
+.banner-img img{
+width:450px;
+margin-top: 14px;
+}
+.second-btn{
+    background: #4EC5F7;
+}
+/* banner section end */
+
+/* main first section start */
+main{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.f-section-text{
+    text-align: right;
+}
+
+
+.f-section-text h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+text-align: right;
+}
+
+.f-section-primary{
+    color: #534C64;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+   
+    width: 520px;
+    text-align: right;
+  
+}
+.f-section-btn{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+
+padding: 18px 40px;
+
+gap: 10px;
+border: 0;
+color: white;
+margin-top: 10px;
+display: inline-flex;
+align-items: flex-end;
+
+
+}
+.section-p{
+    color: #534C64;
+    padding-top: 5px;
+    text-align: right;
+}
+.f-section-discription{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+padding-top: 5px;
+text-align: right;
+}
+.f-section-img img{
+
+    width: 100%;
+    
+
+}
+
+
+/* 2nd section start(main) */
+.online-game{
+    padding-top: 100px;
+}
+.online-h1{
+    text-align: center;
+    color: #0B0223;
+
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.online-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+padding-bottom: 20px;
+}
+.img-box{
+    display:flex;
+    gap: 10px;
+    
+    
+}
+
+
+
+
+
+
+
+
+.item img{
+    width: 100%;
+}
+.item, .item-img{
+    width: 95%;
+}
+.item p{
+    padding-top: 8px;
+}
+/* main-second section end */
+
+
+
+/* main-3rd section start */
+
+.game-download{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+gap: 200px;
+
+}
+.download-img{
+    text-align: center;
+}
+.download-text{
+    margin-top: 130px;
+}
+.big-picture{
+    width:400px; */
+   
+}
+.small-picture{
+    position: relative;
+    right: 160px;
+    bottom: 250px;
+    width: 250px;
+height: 250px;
+border-radius: 8px;
+
+}
+.download-text h1{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.download-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.download-text p{
+    width: 353px;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+/* 3rd extra section */
+
+.online-game02{
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    
+    
+}
+.online-text h1{
+    font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.online-text p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.b-picture{
+    width: 100%;
+}
+.s-picture{
+    /* width: 300px;
+height: 305px; */
+width: 40%;
+flex-shrink: 0;
+position: relative;
+left: 320px;
+bottom: 130px;
+}
+/* catagory start */
+
+.logos{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+
+
+}
+
+.ikon{
+    color:white;
+    font-size: 20px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.img-and-text{
+    display: flex;
+    align-items: center;
+  padding:10px;
+   
+}
+.img-and-text:hover{
+
+border:1px solid pink;
+color:pink;
+border-radius: 20px;
+cursor:pointer;
+transition:.5s;
+}
+.catagory{
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    font-size: 30px;
+    color:black;
+}
+/* footer start */
+footer{
+    height: 426px;
+    background: #0B0223;
+  
+}
+.footer-span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.footer-logo h1{
+    color: white;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+.footer-text a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-privacy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding-top: 40px;
+}
+.footer-privacy a{
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+   
+}
+.logo-footer img{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+
+}
+.logo-footer button{
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footer-small{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+/* mobile users */
+@media screen and (max-width:576px) {
+    .nav-container, .banner-container, .gammer,
+    .img-box,
+    .game-download{
+        flex-direction: column;
+    }
+    .nav-container{
+        padding-top: 100px;
+        /* height: 0; */
+        gap: 0px;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+   
+    .body{
+        overflow-y: auto
+    }
+   
+    .nav-menu{
+        padding-top: 60px;
+    }
+    .f-section-primary{
+        padding-right: 50px;
+        width: 220px;
+        text-align: center;
+    }
+    .download-text p{
+        width:fit-content;
+    }
+    .download-text p{
+        text-align: center;
+    } 
+    .section-p {
+        text-align: center;
+    }
+    .f-section-btn {
+        margin-right: 38px;
+    }
+    .banner-img {
+        margin-left: 30px;
+    }
+    .banner-img img {
+        width: 350px;
+    }
+    .banner-context {
+        padding-top: 150px;
+        padding-left: 35px;
+
+    }
+    .f-section-text h1{
+        text-align: center;
+    }
+    
+    .f-section-discription{
+        text-align: center;
+    }
+    .banner-context{
+        padding-top: 70px;
+    }
+   
+    .banner-img{
+        padding-top: 50px;
+    }
+    .banner-img img{
+        width:300px;
+    
+    }
+   .logos{
+    justify-content: center;
+   }
+    .img-and-text, .game-download{
+        flex-direction: column;
+    }
+    .big-picture{
+        width: 200px;
+        height: 300px;
+    }
+    .download-text h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .download-text{
+        margin-top: 20px;
+    }
+    .small-picture{
+        /* width: 20%; */
+        width:55%;
+        margin-left: 20px;
+        margin-top: 139px;
+        height: 30%;
+    }
+    .small-picture{
+        position: relative;
+        right: 100px;
+        bottom: 250px;
+        width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    
+    }
+    .logos{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+    .game-download{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .footer-text{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .footer-privacy{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* tablet user */
+@media screen and (min-width:576px) and (max-width:992px){
+    .small-picture{
+            bottom: 80px;
+    width: 118.5px;
+    height: 165.083px;
+   
+    left: 130px;
+    }
+.banner-context{
+    padding-left: 50px;
+}
+.banner-text-h1{
+    text-align: inherit;
+    margin-top: 50px;
+}
+.banner-container{
+    flex-direction: column-reverse;
+    padding-left: 150px;
+}
+.gammer{
+    flex-direction: column;
+}
+.f-section-text{
+    text-align: center;
+
+}
+.f-section-text h1{
+    text-align: center;
+}
+.section-p{
+    text-align: center;
+    padding-top: 5px;
+}
+.f-section-discription{
+    text-align: center;
+}
+
+
+
+    .download-text {
+        margin-top: 30px;
+
+    }
+    .download-text h1{
+        text-align: center;
+    }
+    .download-text p{
+        text-align: center;
+    }
+    .logos{
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 35px;
+    }
+  
+}
+
+
